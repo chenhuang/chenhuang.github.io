@@ -10,40 +10,40 @@ ul.nav-tabs {
 	border-top:0px;
 	border-right:0px;
 }
-ul.nav-tabs li {
-	margin: 0px;
-	padding-left: 0px;
-}
-ul.nav-tabs li:first-child {
-	border-top: none;
-}
 ul.nav-tabs li a {
-	margin: 0;
-	padding: 8px 16px;
-	border-radius: 0;
+	padding: 5px 10px;
+	border-radius: 0px;
 	color:#999;
 }
-ul:hover li:hover a:hover{
+ul:hover li.normal:hover a:hover{
 	color:#0088cc;
 	background-color: transparent;
+	border-color: transparent;
 	border-left: 1px solid #0088cc;
-	border-top:0px;
-	border-bottom:0px;
-	border-right:0px;
 }
 ul.nav-tabs li.active, ul.nav-tabs li.active a{
 	color:#0088cc;
+	border-color: transparent;
 	border-left: 1px solid #0088cc;
-	border-top:0px;
-	border-right:0px;
-}
-ul.nav-tabs li:first-child a {
-	border-radius: 0px 0px 0 0;
-}
-ul.nav-tabs li:last-child a {
-	border-radius: 0 0 0px 0px;
-	border-bottom:0px;
 }
 ul.nav-tabs.affix {
 	top: 0px; /* Set the top position of pinned element */
+}
+
+ul.small {
+	list-style-type: none;
+}
+
+li.small a.highlight, li.small a:hover{
+	background-color: transparent;
+	color:red;
+	border:none;
+	padding-left:12px;
+}
+
+div.footnote{
+	text-align: center;
+	color:gray;
+	font-size:small;
+	padding-bottom: 20px;
 }
