@@ -1,0 +1,49 @@
+/* Custom Styles */
+ul.nav{
+	border-bottom: 0px;
+}
+ul.nav-tabs {
+	width: 150px;
+	margin-top: 10px;
+	font-weight: 700;
+	color:#0088cc;
+	border-top:0px;
+	border-right:0px;
+}
+ul.nav-tabs li {
+	margin: 0px;
+	padding-left: 0px;
+}
+ul.nav-tabs li:first-child {
+	border-top: none;
+}
+ul.nav-tabs li a {
+	margin: 0;
+	padding: 8px 16px;
+	border-radius: 0;
+	color:#999;
+}
+ul:hover li:hover a:hover{
+	color:#0088cc;
+	background-color: transparent;
+	border-left: 1px solid #0088cc;
+	border-top:0px;
+	border-bottom:0px;
+	border-right:0px;
+}
+ul.nav-tabs li.active, ul.nav-tabs li.active a{
+	color:#0088cc;
+	border-left: 1px solid #0088cc;
+	border-top:0px;
+	border-right:0px;
+}
+ul.nav-tabs li:first-child a {
+	border-radius: 0px 0px 0 0;
+}
+ul.nav-tabs li:last-child a {
+	border-radius: 0 0 0px 0px;
+	border-bottom:0px;
+}
+ul.nav-tabs.affix {
+	top: 0px; /* Set the top position of pinned element */
+}
