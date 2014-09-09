@@ -1,8 +1,18 @@
 /* Custom Styles */
-ul.nav{
+
+div.headline {
+	color:gray;
+}
+
+div.section {
+	padding-top: 10px;
+	font-size: 14pt;
+}
+
+div.nav, ul.nav{
 	border-bottom: 0px;
 }
-ul.nav-tabs {
+div.nav, ul.nav-tabs {
 	width: 150px;
 	margin-top: 10px;
 	font-weight: 700;
@@ -10,7 +20,7 @@ ul.nav-tabs {
 	border-top:0px;
 	border-right:0px;
 }
-ul.nav-tabs li a {
+div.nav-tabs li a, ul.nav-tabs li a {
 	padding: 5px 10px;
 	border-radius: 0px;
 	color:#999;
@@ -38,6 +48,7 @@ li.large {
 	padding-left:10px;
 	font-size:large;
 	padding-bottom:10px;
+	color:gray;
 }
 
 li.small a{
