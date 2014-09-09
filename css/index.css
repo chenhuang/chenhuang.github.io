@@ -34,11 +34,26 @@ ul.small {
 	list-style-type: none;
 }
 
-li.small a.highlight, li.small a:hover{
+li.large {
+	padding-left:10px;
+	font-size:large;
+	padding-bottom:10px;
+}
+
+li.small a{
 	background-color: transparent;
+	border-color:transparent;
+	margin:0 0 0 0;	
+}
+
+li.small a:hover {
+	background-color: transparent;
+	border-color:transparent;
+	text-decoration:underline;	
+}
+
+li.small a.highlight {
 	color:red;
-	border:none;
-	padding-left:12px;
 }
 
 div.footnote{
