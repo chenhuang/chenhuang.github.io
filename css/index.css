@@ -1,4 +1,7 @@
 /* Custom Styles */
+body {
+	position:relative;
+}
 
 div.headline {
 	color:gray;
