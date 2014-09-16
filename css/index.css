@@ -34,17 +34,18 @@ ul:hover li.normal:hover a:hover{
 	border-color: transparent;
 	border-left: 1px solid #0088cc;
 }
-ul.nav-tabs li.active, ul.nav-tabs li.active a{
+ul.nav-tabs li.active a{
 	color:#0088cc;
 	border-color: transparent;
-	border-left: 1px solid #0088cc;
+	border-left: 2px solid #0088cc;
 }
 ul.nav-tabs.affix {
 	top: 0px; /* Set the top position of pinned element */
 }
 
-ul.small {
+ul.nested, ul.small {
 	list-style-type: none;
+	color:#999;
 }
 
 li.large {
