@@ -16,7 +16,7 @@ div.nav, ul.nav{
 	border-bottom: 0px;
 }
 div.nav, ul.nav-tabs {
-	width: 150px;
+	width: 180px;
 	margin-top: 10px;
 	font-weight: 700;
 	color:#0088cc;
@@ -24,7 +24,7 @@ div.nav, ul.nav-tabs {
 	border-right:0px;
 }
 div.nav-tabs li a, ul.nav-tabs li a {
-	padding: 5px 10px;
+	padding: 3px 8px;
 	border-radius: 0px;
 	color:#999;
 }
@@ -47,6 +47,23 @@ ul.nested, ul.small {
 	list-style-type: none;
 	color:#999;
 }
+li hr {
+	width:160px;
+	float:left;
+}
+li.thin, li.thin a {
+	list-style-type: none;
+	font-weight:300;
+	font-size:9pt;
+	color:black;
+	line-height: 1.15;
+	background-color: transparent;
+	border-color:transparent;
+}
+
+li.thin a.highlight {
+	color:black;
+}
 
 li.large {
 	padding-left:10px;
@@ -61,7 +78,7 @@ li.small a{
 	margin:0 0 0 0;	
 }
 
-li.small a:hover {
+li.small a:hover,li.thin a:hover {
 	background-color: transparent;
 	border-color:transparent;
 	text-decoration:underline;	
